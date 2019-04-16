@@ -7,8 +7,7 @@ Inspired by [denoland/deno#2125](https://github.com/denoland/deno/issues/2125) i
 Usage
 -
 ```
-import { __ } from 'https://raw.githubusercontent.com/rsp/deno-dirname/master/mod.ts';
-
+import { __ } from 'https://deno.land/x/dirname/mod.ts';
 const { __filename, __dirname } = __(import.meta);
 
 console.log(__dirname);
