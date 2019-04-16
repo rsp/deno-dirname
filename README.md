@@ -4,6 +4,17 @@ Node-style `__dirname` and `__filename` polyfill for Deno
 
 Inspired by [denoland/deno#2125](https://github.com/denoland/deno/issues/2125) issue by [@zekth](https://github.com/zekth)
 
+Usage
+-
+```
+import { __ } from 'https://raw.githubusercontent.com/rsp/deno-dirname/master/mod.ts';
+
+const { __filename, __dirname } = __(import.meta);
+
+console.log(__dirname);
+console.log(__filename);
+```
+
 Issues
 -
 For any bug reports or feature requests please
