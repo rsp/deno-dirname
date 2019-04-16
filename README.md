@@ -2,7 +2,7 @@ deno-dirname
 =
 Node-style `__dirname` and `__filename` polyfill for Deno
 
-Inspired by denoland/deno#2125 issue by @zekth
+Inspired by [denoland/deno#2125](https://github.com/denoland/deno/issues/2125) issue by [@zekth](https://github.com/zekth)
 
 Issues
 -
